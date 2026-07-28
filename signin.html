@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <title>تسجيل الدخول - رمزي جميل</title>
+</head>
+
+<body bgcolor="#f4f6f9" text="#000000">
+    <font face="Tahoma">
+        <center>
+            <h3>أدخل بياناتك الشخصية</h3>
+        </center>
+        
+        <hr color="#003366" size="2">
+
+        <form>
+            <!--user information-->
+            <div>
+                <label for="username">اسم المستخدم:</label><br>
+                <input required id="username" type="text" placeholder="أدخل اسمك الكامل">
+            </div>
+
+            <br>
+
+            <!--Email-->
+            <div>
+                <label for="email">البريد الإلكتروني:</label><br>
+                <input required id="email" type="text" placeholder="أدخل بريدك الإلكتروني" name="email">
+            </div>
+
+            <br>
+
+            <!--Password-->
+            <div>
+                <label for="password">كلمة المرور:</label><br>
+                <input required id="password" type="password" placeholder="أدخل كلمة المرور"> 
+            </div>
+                
+            <br>
+
+            <!--Gender-->
+            <div>
+                <h3>الجنس</h3>
+                <label for="gender_m">ذكر</label>
+                <input required id="gender_m" type="radio" name="gender">
+                &nbsp;&nbsp;
+                <label for="gender_f">أنثى</label>
+                <input required id="gender_f" type="radio" name="gender">
+            </div>
+            
+            <br>
+                
+            <div>
+                <h3>معلوماتك الشخصية والاهتمامات</h3>
+                <input type="checkbox" id="p1"> <label for="p1">لاعب</label><br>
+                <input type="checkbox" id="p2"> <label for="p2">طيار</label><br>
+                <input type="checkbox" id="p3"> <label for="p3">مدرّب</label><br>
+                <input type="checkbox" id="p4"> <label for="p4">مشرف</label>
+            </div>
+
+            <br><hr color="#cccccc"><br>
+
+            <input type="submit" value="إرسال البيانات">
+
+        </form>
+    </font>
+</body>
+
+</html>
